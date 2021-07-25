@@ -112,3 +112,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Extras
+webNLG2020_train.csv
+t5_nlg_demo.bin

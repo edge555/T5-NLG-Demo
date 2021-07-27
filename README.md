@@ -2,6 +2,9 @@
 
  A demo of Natural Language Generation using T5 Model
 
+# Requirements
+
+* [Pytorch](https://pytorch.org/) v1.6.0 or more
 
 # Dataset
 
@@ -17,3 +20,9 @@
 * Download the generated model
 
 * Run main.py to run the model. Pass few words to get a generated sentence.
+
+# Example
+```
+Input: Arthur Morgan | born | 22nd june | 1843 | good man | help | people
+Output: Arthur Morgan was born on 22nd June 1843 and was a man who helped people
+```
